@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>student/login</title>
+</head>
+<body>
+<!---- header start ---->    
+<div class="header container-fluid p-3">
+    <h2 class="text-center text-dark">Student Management System</h2>         
+</div>
+
+<!---- ---->
+<div class="container-fluid d-block mt-5 py-5">
+    <div class="row justify-content-center mb-5">
+        <div class="col-10 col-lg-3 col-sm-6 col-md-4  max-h-50 p-2">
+            <div class="card pb-0">
+                <div class="card-body">
+                    <h5 class="card-title text-center py-0">User Login here</h5>
+                    <form id="user-login">
+                        <div class="mb-2">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="userName" placeholder="Enter username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="password" placeholder="Enter password">
+                                <button type="button" class="btn btn-outline-secondary password-toggle" id="togglePassword">
+                                    <i class="fa fa-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn mb-2 w-100 text-white" id="subumit-btn">Login</button>
+                        <p class="erromessage text-danger text-center d-non" id="message">invalid credentials! please try again.</p>
+                    </form>
+
+                    <p class="register-link ">Don't have an account? <a href="href/register.html">Register here</a></p>
+                </div>
+            </div>              
+        </div> 
+    </div>
+</div>
+<!---- ---->        
+
+    <footer class="bg-light p-3 mt-5">
+        <p class="text-center">&copy; 2024 student management. All right are resserved</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

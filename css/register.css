@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: bodyanim 0.85s linear;
+}
+
+
+@keyframes bodyanimate{
+    0%{
+        opacity: 0;
+        margin-left: -1000px;
+    }25%{
+        opacity: 0.25;
+        margin-left: -750px;
+    }50%{
+        opacity: 0.5;
+        margin-left: -500px;
+    }75%{
+        opacity: 0.75;
+        margin-left: -250px;
+    }100%{
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+/*-----------------------
+|| Register page
+-------------------------
+*/
+header{
+    top: 0;
+    margin: 0 0 15px 0;
+    color: #fff;
+    padding: 4px 0;
+    text-align: center;
+    background: #34bd56;
+}
+
+
+
+
+
+#logmessage{
+    display: none;
+    width: 18vw;
+    margin: 0 auto;
+    color: #ff0000;
+    font-size: 15px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background: #ff7d7d28;
+    animation: logmessage 0.89s linear;
+}
+
+/* message animation */
+@keyframes logmessage {
+    0%{
+        opacity: 0;
+        margin-top: -10px;
+      }
+    50%{
+        opacity: 0.5;
+        margin-top: -5px;
+      }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+      }
+}
+
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 17px 0;
+    background: #f5f5f5;
+    align-items: center;
+}
+
+footer p{
+    margin-top: 12px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>student/Register</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-start">
+            <div class="col-8 col-md-6">
+                <h2 class="text-center mb-4">Student Registration</h2>
+                <form>
+                    <!-- Username -->
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Student Name</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
+                    </div>
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Student Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                     <!-- course -->
+                     <div class="mb-3">
+                        <label for="course" class="form-label">Course</label>
+                        <select class="form-select" id="course" required>
+                            <option value="" disabled selected>Select your course</option>
+                            <option value="BITAM">BITAM</option>
+                            <option value="BSE">BSE</option>
+                            <option value="BAGES">BAGES</option>
+                            <option value="BCS">BCS</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <!-- registration -->
+                    <div class="mb-3">
+                        <label for="Registration" class="form-label">Registration Number</label>
+                        <input type="tel" class="form-control" id="Registration" placeholder="Enter your Registration Number" required>
+                    </div>
+                    <!-- registration -->
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.js"></script>
+</body>
+</html>

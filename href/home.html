@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Z.S.T.C</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to C.B.S</h1>
+        <nav>
+            <ul>
+                <li><a href="#submit-offer">Submit Clove Offer</a></li>
+                <li><a href="#transaction-history">Transaction History</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Hello, [User's Name]!</h2>
+            <p>Welcome to the Zanzibar State Trade Company portal where you can submit your clove offers and manage your transactions.</p>
+        </section>
+
+        <section id="submit-offer">
+            <h2>Submit Clove Offer</h2>
+            <form id="offer-form">
+                <input type="number" placeholder="Quantity (kg)" required>
+                <input type="number" placeholder="Price per kg ($)" required>
+                <button type="submit">Submit Offer</button>
+            </form>
+        </section>
+
+        <section id="transaction-history">
+            <h2>Your Transaction History</h2>
+            <ul id="history-list">
+                <!-- Transaction history items will be appended here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 C.B.S. All right are ressaved</p>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/all.js"></script>
+</body>
+</html>
